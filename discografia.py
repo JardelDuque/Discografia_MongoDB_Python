@@ -23,7 +23,7 @@ albuns_list.append(
     '{"nome" : "Nevermind", "artista" : {"nome": "Nirvana"}, "estudioGravacao" : ["Sound City Studios", "Smart Studios (Madison)"], "dataLancamento" : "1992-01-11"}'
 )
 albuns_list.append(
-    '{"nome" : "The Dark Side of The Moon", "artista" : {"nome":"Pink Floyd"}, "dataLancamento" : "1973-04-29"}'
+    '{"nome" : "The Dark Side of The Moon", "artista" : {"nome":"Pink Floyd"}, "dataLancamento" : "1973-04-29", "gravadora":"Capitol Records"}'
 )
 
 # Transforma as instrings em documento JSON e depois insere na coleção 'albuns' do MongoDB
