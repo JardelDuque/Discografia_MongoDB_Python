@@ -26,7 +26,7 @@ albuns_list.append(
     '{"nome" : "The Dark Side of The Moon", "artista" : {"nome":"Pink Floyd"}, "dataLancamento" : "1973-04-29", "gravadora":"Capitol Records"}'
 )
 
-# Transforma as instrings em documento JSON e depois insere na coleção 'albuns' do MongoDB
+# Transforma as strings em documento JSON e depois insere na coleção 'albuns' do MongoDB
 for item in albuns_list: 
     album = json.loads(item)
     db.albuns.insert(album)
@@ -47,7 +47,7 @@ artists_list.append(
     '{"nome":"Blind Guardian", "nacionalidade":"Alemanha", "genero":"Power Metal", "origem":"Krefeld"}'
 )
 
-# Transforma as instrings em documento JSON e depois insere na coleção 'artistas' do MongoDB
+# Transforma as strings em documento JSON e depois insere na coleção 'artistas' do MongoDB
 for item in artists_list: 
     artist = json.loads(item)
     db.artistas.insert(artist)
